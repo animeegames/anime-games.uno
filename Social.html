@@ -387,7 +387,23 @@
           <path d="M22 6l-10 7L2 6" />
         </svg>
       </button>
-      
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"/>
+      <script>
+  $(document).ready(function(){
+    $("#menuButton").click(function(){
+      $("#menu").slideToggle();
+    }); 
+  });
+
+</script>
+    <button id="menuButton">Menu</button>
+<div id="menu" style="display:none;">
+  <p>Home</p>
+  <p>Dove siamo</p>
+  <p>Chi siamo</p>
+  <p>Contatti</p>
+  <p>Social</p>
+</div>
   
      
     </div>
