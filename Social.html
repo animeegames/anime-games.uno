@@ -392,10 +392,11 @@
       
       <div class="dropdown">
   <button onclick="myFunction()" class="dropbtn">Dropdown</button>
-  <div id="myDropdown" class="button-badge">
-    <a href="#">Link 1</a>
-    <a href="#">Link 2</a>
-    <a href="#">Link 3</a>
+        <span class="badge alert">1</span>
+  <div id="myDropdown" class="dropdown-content">
+    <a href="#"></a>
+    <a href="#"></a>
+    <a href="#"></a>
   </div>
 </div>
   
@@ -1481,6 +1482,36 @@ body {
 
 /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
 .show {display:block;}
+  
+  
+  
+  
+.button-badge {
+  background-color: #1779ba;
+  text-decoration: none;
+  padding: 1rem 1.5rem;
+  position: relative;
+  display: inline-block;
+  border-radius: .2rem;
+  transition: all ease 0.4s;
+}
+
+.button-badge:hover {
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
+}
+
+.badge {
+  position: absolute;
+  top: -10px;
+  right: -10px;
+  font-size: .8em;
+}
+
+.fa {
+  color: white;
+}
+
+
   </style>
   
   
